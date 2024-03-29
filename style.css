@@ -1,0 +1,540 @@
+#navbar{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 50px;
+    padding: 20px;
+}
+#home{
+    background-color: rgb(255,147,18);
+    border-radius: 50px;
+    padding: 10px;
+}
+#travel-images{
+    display: flex;
+    justify-content: space-around;
+}
+#grandcaynon-visual{
+    border-radius: 30px;
+}
+#borabora-visual{
+    border-radius: 30px;
+}
+#angkorwat-visual{
+    border-radius: 30px;
+}
+#travel-destinations{
+    margin-left: 35%;
+}
+#navigate{
+    display: flex;
+    margin-left: 35%;
+}
+#navigate-forward{
+    background-color: rgb(255,147,18);
+    color: white;
+    border-radius: 50px;
+}
+
+#user-journey{
+    display: flex;
+    justify-content: space-around;
+
+}
+#user-features{
+    margin-left: 35%;
+}
+#top-destination{
+    margin-left: 35%;
+}
+#top-countries{
+    display: flex;
+    justify-content: space-around;
+   
+}
+#scotiland{
+    border-color: black;
+    border-radius: 50px;
+    padding: 10px;
+}
+#destination-visuals{
+    display: flex;
+    justify-content: space-around;
+}
+#florence-italy{
+    border-radius: 30px;
+}
+#venice-italy{
+    border-radius: 30px;
+}
+#porto-cervo{
+    border-radius: 30px;
+}
+#milan-italy{
+    border-radius: 30px;
+}
+#rome-italy{
+    border-radius: 30px;
+}
+#reviews{
+    display: flex;
+    justify-content: space-around;
+}
+#navigate-forwardrep{
+    background-color: rgb(255,147,18);
+    color: white;
+    border-radius: 50px;
+}
+#navigaterep{
+    display: flex;
+}
+#review-comments{
+    display: flex;
+    justify-content: space-around;
+}
+#customer-comment{
+    display: flex;
+}
+#customer-commentb{
+    display: flex;
+}
+#customer-commentc{
+    display: flex;
+}
+#blog{
+    margin-left: 35%;
+}
+#price-details{
+    display: flex;
+    justify-content: space-around;
+}
+#tuscany{
+    border-radius: 50px;
+}
+#question-box{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(255,147,18);
+    border-radius: 50px;
+}
+#submit-button{
+    border-radius: 50px;
+
+}
+#mountain-bottom{
+    background-image: url(/images/mountain-image.avif);
+    height: 700px;
+    text-align: center;
+}
+#footer{
+    display: flex;
+    gap: 150px;
+    padding: 50px;
+    justify-content: space-around;
+}
+#copyright{
+    text-align: center;
+    color: gray;
+}
+#subscription{
+    text-align: center;
+
+}
+#email{
+    border-radius: 20px;
+}
+#adventure{
+    text-align: center;
+
+}
+#adventure-buttons{
+    text-align: center;
+
+}
+#landing-cover{
+    background-image: url(/images/main-image.jpg);
+    height: 700px;
+}
+#landing-page{
+    text-align: center;
+    font-size: x-large;
+}
+#adventure{
+    font-size: x-large;
+}
+
+@media screen and (max-width: 1000px) {
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+        /*padding: 20px;*/
+    }
+    #home{
+        background-color: rgb(255,147,18);
+        border-radius: 50px;
+        /*padding: 10px;*/
+    }
+    #travel-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #grandcaynon-visual{
+        border-radius: 30px;
+    }
+    #borabora-visual{
+        border-radius: 30px;
+    }
+    #angkorwat-visual{
+        border-radius: 30px;
+    }
+    #travel-destinations{
+        /*margin-left: 35%;*/
+    }
+    #navigate{
+        display: flex;
+        flex-wrap: wrap;
+        /*margin-left: 35%;*/
+    }
+    #navigate-forward{
+        background-color: rgb(255,147,18);
+        color: white;
+        border-radius: 50px;
+    }
+    
+    #user-journey{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    #user-features{
+        /*margin-left: 35%;*/
+    }
+    #top-destination{
+        /*margin-left: 35%;*/
+    }
+    #top-countries{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+    }
+    #scotiland{
+        border-color: black;
+        border-radius: 50px;
+        /*padding: 10px;*/
+    }
+    #destination-visuals{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #florence-italy{
+        border-radius: 30px;
+    }
+    #venice-italy{
+        border-radius: 30px;
+    }
+    #porto-cervo{
+        border-radius: 30px;
+    }
+    #milan-italy{
+        border-radius: 30px;
+    }
+    #rome-italy{
+        border-radius: 30px;
+    }
+    #reviews{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #navigate-forwardrep{
+        background-color: rgb(255,147,18);
+        color: white;
+        border-radius: 50px;
+    }
+    #navigaterep{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #review-comments{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #customer-comment{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #customer-commentb{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #customer-commentc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #blog{
+        /*margin-left: 35%;*/
+    }
+    #price-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #tuscany{
+        border-radius: 50px;
+    }
+    #question-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: rgb(255,147,18);
+        border-radius: 50px;
+    }
+    #submit-button{
+        border-radius: 50px;
+    
+    }
+    #mountain-bottom{
+        background-image: url(/images/mountain-image.avif);
+        height: 700px;
+        text-align: center;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+        /*padding: 50px;*/
+        justify-content: space-around;
+    }
+    #copyright{
+        text-align: center;
+        color: gray;
+    }
+    #subscription{
+        text-align: center;
+    
+    }
+    #email{
+        border-radius: 20px;
+    }
+    #adventure{
+        text-align: center;
+    
+    }
+    #adventure-buttons{
+        text-align: center;
+    
+    }
+    #landing-cover{
+        background-image: url(/images/main-image.jpg);
+        height: 700px;
+    }
+    #landing-page{
+        text-align: center;
+        font-size: x-large;
+    }
+    #adventure{
+        font-size: x-large;
+    }
+    
+
+}
+
+@media screen and ( (min-width: 10001px)and (max-width: 1500px)) {
+    #navbar{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        border-radius: 50px;
+        /*padding: 20px;*/
+    }
+    #home{
+        background-color: rgb(255,147,18);
+        border-radius: 50px;
+        /*padding: 10px;*/
+    }
+    #travel-images{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #grandcaynon-visual{
+        border-radius: 30px;
+    }
+    #borabora-visual{
+        border-radius: 30px;
+    }
+    #angkorwat-visual{
+        border-radius: 30px;
+    }
+    #travel-destinations{
+        /*margin-left: 35%;*/
+    }
+    #navigate{
+        display: flex;
+        flex-wrap: wrap;
+        /*margin-left: 35%;*/
+    }
+    #navigate-forward{
+        background-color: rgb(255,147,18);
+        color: white;
+        border-radius: 50px;
+    }
+    
+    #user-journey{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    
+    }
+    #user-features{
+        /*margin-left: 35%;*/
+    }
+    #top-destination{
+        /*margin-left: 35%;*/
+    }
+    #top-countries{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+       
+    }
+    #scotiland{
+        border-color: black;
+        border-radius: 50px;
+        /*padding: 10px;*/
+    }
+    #destination-visuals{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #florence-italy{
+        border-radius: 30px;
+    }
+    #venice-italy{
+        border-radius: 30px;
+    }
+    #porto-cervo{
+        border-radius: 30px;
+    }
+    #milan-italy{
+        border-radius: 30px;
+    }
+    #rome-italy{
+        border-radius: 30px;
+    }
+    #reviews{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #navigate-forwardrep{
+        background-color: rgb(255,147,18);
+        color: white;
+        border-radius: 50px;
+    }
+    #navigaterep{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #review-comments{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #customer-comment{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #customer-commentb{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #customer-commentc{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    #blog{
+        /*margin-left: 35%;*/
+    }
+    #price-details{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+    #tuscany{
+        border-radius: 50px;
+    }
+    #question-box{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        background-color: rgb(255,147,18);
+        border-radius: 50px;
+    }
+    #submit-button{
+        border-radius: 50px;
+    
+    }
+    #mountain-bottom{
+        background-image: url(/images/mountain-image.avif);
+        height: 700px;
+        text-align: center;
+    }
+    #footer{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 150px;
+        /*padding: 50px;*/
+        justify-content: space-around;
+    }
+    #copyright{
+        text-align: center;
+        color: gray;
+    }
+    #subscription{
+        text-align: center;
+    
+    }
+    #email{
+        border-radius: 20px;
+    }
+    #adventure{
+        text-align: center;
+    
+    }
+    #adventure-buttons{
+        text-align: center;
+    
+    }
+    #landing-cover{
+        background-image: url(/images/main-image.jpg);
+        height: 700px;
+    }
+    #landing-page{
+        text-align: center;
+        font-size: x-large;
+    }
+    #adventure{
+        font-size: x-large;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+
+
